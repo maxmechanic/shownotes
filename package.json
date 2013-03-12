@@ -1,0 +1,25 @@
+{
+  "name": "shownotes",
+  "version": "0.1.0",
+  "description": "A scraper for podcast shownotes",
+  "main": "index.js",
+  "dependencies": {
+    "request": "2.x",
+    "cheerio": "0.10.x",
+    "underscore": "1.4.x"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxmechanic/shownotes"
+  },
+  "keywords": [
+    "scraper",
+    "podcast",
+    "shownotes"
+  ],
+  "readmeFilename": "README.md",
+  "author": "maxmechanic",
+  "license": "MIT"
+}
