@@ -104,8 +104,9 @@ function scrapeFor5by5Shows (err, res, body) {
 
 	parsedHTML('a', '.broadcast_thumb').map(function(i, link) {
 		shows[$(link).attr('title').toLowerCase()] = $(link).attr('href') + '/';
-
 	});
+
+	console.log(shows);
 }
 
 
