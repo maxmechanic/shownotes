@@ -57,7 +57,7 @@ shownotes.get('5by5', 'hypercritical', 99, function(notes) {
 
 ###Scraping for shows
 
-There's a function to assemble titles and paths for a given shows specific to 5by5 right now. Again, expanding by network it seems ideal to be able to check for a show if the current list is out-of-date. Right now the function is simply printing to console.
+There's a function to assemble titles and paths for a given network's shows specific to 5by5 right now. Again, expanding by network it seems ideal to be able to check for a show if the current list is out-of-date. Right now the function is simply printing to console.
 ```javascript
  
 shownotes.get5by5shows();
